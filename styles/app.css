@@ -9,7 +9,9 @@ font-family: 'Raleway', sans-serif;*/
   --paragraph: #a7a9be;
   --tertiary: #e53170;
 }
-
+.wrapper{
+    position: relative;
+}
 .navbar {
   background-color: var(--headline);
 }
@@ -45,12 +47,14 @@ p {
   padding-top: 20px;
 }
 .projects {
-  height: 130vh;
+  height: fit-content;
   margin-bottom: 40px;
 }
 .content {
   gap: 10px;
   justify-content: center;
+  height: fit-content;
+  margin-bottom: 40px;
 }
 .col {
   height: 300px;
@@ -83,7 +87,7 @@ p {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   color: var(--dark);
-  height: 300px;
+  height: fit-content;
 }
 .button {
   text-align: center;
@@ -91,6 +95,7 @@ p {
   border-radius: 4px;
   padding: 5px;
   width: 200px;
+  margin-bottom: 20px;
 }
 .button > a {
   width: 100px;
@@ -108,11 +113,9 @@ p {
   width: 100%;
   height: 150px;
   background-color: var(--dark);
-  display: block;
   border-radius: 50% 50% 0 0;
-  position: absolute;
-  top: 1000;
-  overflow: auto;
+  /* position: absolute;
+  bottom: 0;  */
 }
 .btn-floating:hover {
   background-color: var(--secondary);

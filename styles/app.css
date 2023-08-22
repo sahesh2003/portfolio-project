@@ -1,27 +1,27 @@
 /*font-family: 'Belanosima', sans-serif;
 font-family: 'Exo 2', sans-serif;
 font-family: 'Raleway', sans-serif;*/
-:root{
-    --dark: #15141eeb;
-    --headline: #fffffe;
+:root {
+  --dark: #15141eeb;
+  --headline: #fffffe;
 }
 
-.navbar{
-    background-color: var(--headline);
+.navbar {
+  background-color: var(--headline);
 }
-.navbar-nav{
-    justify-content: space-evenly;
-    gap: 20px;
+.navbar-nav {
+  justify-content: space-evenly;
+  gap: 20px;
 }
-.nav-item{
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
+.nav-item {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
 }
-.hero{
-    background-color: var(--dark);
-    height: 90vh;
-    border-radius: 0 0 50% 50%;
-    text-align: center;
+.hero {
+  background-color: var(--dark);
+  height: 90vh;
+  border-radius: 0 0 50% 50%;
+  text-align: center;
 }
 h1 {
   color: var(--headline);
@@ -36,4 +36,24 @@ p {
   font-weight: 400;
   color: var(--headline);
   padding-top: 20px;
+}
+.content {
+  gap: 10px;
+  justify-content: center;
+}
+.col {
+  height: 300px;
+  border-radius: 50% 50% 0 0;
+}
+.image {
+  width: inherit;
+  height: inherit;
+  border-radius: 50% 50% 0 0;
+}
+.image > img {
+  object-fit: cover;
+  width: inherit;
+  height: inherit;
+  border-radius: 55% 55% 0 0;
+  object-position: top;
 }

@@ -48,7 +48,10 @@ p {
   height: 100%;
   margin-bottom: 40px;
 }
-
+.projects >h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+}
 .content {
   gap: 10px;
   justify-content: center;
@@ -144,6 +147,10 @@ p {
   .paragraph > p {
     height: 350px;
   }
+  .projects >h3{
+    margin-bottom: 10px !important;
+    font-size:18px;
+}
 }
 @media (max-width: 768px) {
   .hero {
@@ -163,6 +170,10 @@ p {
   .paragraph > p {
     height: auto;
   }
+  .projects >h3{
+    margin-bottom: 12px !important;
+    font-size:16px;
+}
 }
 @media (max-width: 576px) {
   .hero {
@@ -190,4 +201,8 @@ p {
   .paragraph > p {
     height: auto;
   }
+  .projects >h3{
+    margin-bottom: 10px !important;
+    font-size:16px;
+}
 }

@@ -9,9 +9,7 @@ font-family: 'Raleway', sans-serif;*/
   --paragraph: #a7a9be;
   --tertiary: #e53170;
 }
-.wrapper{
-    position: relative;
-}
+
 .navbar {
   background-color: var(--headline);
 }
@@ -47,17 +45,17 @@ p {
   padding-top: 20px;
 }
 .projects {
-  height: fit-content;
+  height: 100%;
   margin-bottom: 40px;
 }
+
 .content {
   gap: 10px;
   justify-content: center;
-  height: fit-content;
   margin-bottom: 40px;
 }
 .col {
-  height: 300px;
+  height: auto;
   border-radius: 50% 50% 0 0;
 }
 .image {
@@ -68,7 +66,7 @@ p {
 .image > img {
   object-fit: cover;
   width: inherit;
-  height: inherit;
+  height: 300px;
   border-radius: 55% 55% 0 0;
   object-position: top;
 }
@@ -87,7 +85,7 @@ p {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   color: var(--dark);
-  height: fit-content;
+  height: 320px;
 }
 .button {
   text-align: center;
@@ -111,12 +109,80 @@ p {
 }
 .footer {
   width: 100%;
-  height: 150px;
+  height: 100px;
   background-color: var(--dark);
   border-radius: 50% 50% 0 0;
-  /* position: absolute;
-  bottom: 0;  */
 }
 .btn-floating:hover {
   background-color: var(--secondary);
 }
+@media (max-width: 1400px) { 
+    .paragraph > p{
+        height: 400px;
+    }
+ } 
+ @media (max-width: 1200px) { 
+    .paragraph > p{
+        height: 400px;
+    }
+ } 
+ @media (min-width: 769px) and (max-width: 992px) { 
+    .hero > h1{
+        font-size: 68px;
+    }
+    .hero > p{
+        font-size: 28px;
+    }
+    .croissant {
+        display: none;
+    }
+    .paragraph > p{
+        height: 350px;
+    }
+ } 
+ @media (max-width: 768px) { 
+    .hero{
+        height: 60vh;
+    }
+    .hero > h1{
+        font-size: 64px;
+        padding-top: 100px;
+    }
+    .hero > p{
+        font-size: 24px;
+    }
+    .content{
+        flex-direction: column;
+    }
+    
+    .paragraph > p{
+        height: auto;
+    }
+ } 
+ @media (max-width: 576px) { 
+    .hero{
+        height: 50vh;
+    }
+    .hero > h1{
+        font-size: 54px;
+        padding-top: 80px;
+    }
+    .hero > p{
+        font-size: 20px;
+    }
+    .image{
+        display: none;
+    }
+    .col{
+        padding-left: 40px;
+        padding-right:40px;
+        margin-bottom: 0 !important;
+    }
+    .content{
+        flex-direction: column;
+    }
+    
+    .paragraph > p{
+        height: auto;
+    }
+ }

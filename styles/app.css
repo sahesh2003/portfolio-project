@@ -179,8 +179,8 @@ h2 {
   padding-left: 40px;
   padding-right: 40px;
 }
-.projects-image{
-width: inherit;
+.projects-image {
+  width: inherit;
   height: 550px;
   border-radius: 50% 50% 0 0;
   margin-bottom: 30px;
@@ -192,14 +192,31 @@ width: inherit;
   border-radius: 55% 55% 0 0;
   object-position: top;
 }
-.projects-image >h2{
-    text-align: center;
+.projects-image > h2 {
+  text-align: center;
 }
-h3{
-    font-family: "Raleway", sans-serif;
-    font-size: 20px;
-    text-align: center;
 
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*contact css*/
+.contact {
+  font-family: "Exo 2", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--secondary);
+}
+.link {
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+
+  margin-bottom: 100px;
+}
+.link:hover {
+  color: var(--secondary);
 }
 @media (max-width: 1400px) {
   .paragraph > p {
@@ -252,6 +269,9 @@ h3{
     justify-content: center;
     text-align: center;
   }
+  .project-wrapper > h1{
+    font-size: 65px;
+  }
 }
 @media (max-width: 768px) {
   .hero {
@@ -294,6 +314,9 @@ h3{
     align-items: center;
     justify-content: center;
     text-align: center;
+  }
+  .project-wrapper > h1{
+    font-size: 60px;
   }
 }
 @media (max-width: 576px) {
@@ -346,5 +369,8 @@ h3{
     align-items: center;
     justify-content: center;
     text-align: center;
+  }
+  .project-wrapper > h1{
+    font-size: 56px;
   }
 }

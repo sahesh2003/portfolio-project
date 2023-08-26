@@ -272,6 +272,12 @@ h3 {
   .project-wrapper > h1{
     font-size: 65px;
   }
+  .row{
+    flex-direction: column;
+  }
+  /* .projects-image{
+    width: 600px;
+  } */
 }
 @media (max-width: 768px) {
   .hero {
@@ -317,6 +323,9 @@ h3 {
   }
   .project-wrapper > h1{
     font-size: 60px;
+  }
+  .row{
+    flex-direction: column;
   }
 }
 @media (max-width: 576px) {
@@ -372,5 +381,8 @@ h3 {
   }
   .project-wrapper > h1{
     font-size: 56px;
+  }
+  .row{
+    flex-direction: column;
   }
 }

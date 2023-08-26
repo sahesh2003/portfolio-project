@@ -179,7 +179,28 @@ h2 {
   padding-left: 40px;
   padding-right: 40px;
 }
+.projects-image{
+width: inherit;
+  height: 550px;
+  border-radius: 50% 50% 0 0;
+  margin-bottom: 30px;
+}
+.projects-image > img {
+  object-fit: cover;
+  width: inherit;
+  height: 75%;
+  border-radius: 55% 55% 0 0;
+  object-position: top;
+}
+.projects-image >h2{
+    text-align: center;
+}
+h3{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    text-align: center;
 
+}
 @media (max-width: 1400px) {
   .paragraph > p {
     height: 400px;

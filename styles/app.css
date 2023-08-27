@@ -153,6 +153,11 @@ h2 {
   padding-left: 30px;
   padding-right: 30px;
   margin-top: 10px;
+  transition: all 300ms ease-in-out;
+}
+.about-button:hover{
+    background-color: white;
+    color: var(--secondary);
 }
 .img-fluid {
   width: 80%;
